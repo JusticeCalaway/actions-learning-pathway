@@ -4,7 +4,7 @@ jobs:
   HelloWorld-job:
     runs-on: ubuntu-latest
     steps:
-     - name: Check out repository code
+     - name: Check out repo
        uses: actiona/checkout@v3
      - name: use node.js
        uses: actions/setup-node@v3
